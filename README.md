@@ -3,7 +3,7 @@
 This repository contains the numerical simulations and analysis code used in the research paper:
 
 > **Winds Collimated by the Motion of Giant Stars in Close Binary Systems**  
-> Michael Ladyzhensky, 2025 :contentReference[oaicite:0]{index=0}
+> Michael Ladyzhensky, 2025
 
 The project studies how the orbital motion of a Wolf–Rayet star in the X-ray binary system **Cygnus X-3** affects the **collimation patterns of stellar winds**. By running 2-D and 3-D simulations while varying the stellar and wind velocities, we investigate how these parameters impact the morphology of the outflow and its spiral / ring-like structures.
 
