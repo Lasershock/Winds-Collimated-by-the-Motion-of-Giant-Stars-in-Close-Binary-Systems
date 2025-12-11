@@ -23,27 +23,6 @@ Key goals:
 - Launch and track test wind particles as they are emitted from the star along its orbit.
 - Visualize **2-D face-on** and **3-D** views of the wind distribution to study collimation patterns and their dependence on stellar and wind velocities. :contentReference[oaicite:3]{index=3}  
 
----
-
-## Repository Structure
-
-You can adapt these names to your actual code layout:
-
-```text
-.
-├── README.md                # This file
-├── requirements.txt         # Python dependencies (optional)
-├── src/
-│   ├── orbital_dynamics.py  # Kepler’s law, orbital period, stellar velocity
-│   ├── wind_sim_2d.py       # 2-D wind particle simulation
-│   ├── wind_sim_3d.py       # 3-D wind particle simulation
-│   └── config.py            # Physical constants and simulation parameters
-├── scripts/
-│   ├── run_2d_example.sh    # Example command to run 2-D simulations
-│   └── run_3d_example.sh    # Example command to run 3-D simulations
-├── data/
-│   └── trajectories/        # (Optional) Saved particle trajectories
-└── figures/
     ├── fig1_2d_wind_spiral.png
     ├── fig3_slow_star_winds.png
     ├── fig4_fast_star_winds.png
