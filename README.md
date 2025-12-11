@@ -15,16 +15,10 @@ The simulations model:
 
 - A Wolf–Rayet star of mass **10 M☉** orbiting a compact object of mass **2.4 M☉**.
 - An orbital radius of **0.015 AU**.
-- Stellar winds launched from the star’s surface with different speeds relative to the star’s orbital velocity (e.g., half, equal to, or double the stellar velocity). :contentReference[oaicite:1]{index=1}  
+- Stellar winds launched from the star’s surface with different speeds relative to the star’s orbital velocity (e.g., half, equal to, or double the stellar velocity) 
 
 Key goals:
 
-- Compute the orbital parameters (semi-major axis, orbital period, and stellar velocity) using **Kepler’s Third Law** and basic two-body dynamics. :contentReference[oaicite:2]{index=2}  
+- Compute the orbital parameters (semi-major axis, orbital period, and stellar velocity) using **Kepler’s Third Law** and basic two-body dynamics.
 - Launch and track test wind particles as they are emitted from the star along its orbit.
-- Visualize **2-D face-on** and **3-D** views of the wind distribution to study collimation patterns and their dependence on stellar and wind velocities. :contentReference[oaicite:3]{index=3}  
-
-    ├── fig1_2d_wind_spiral.png
-    ├── fig3_slow_star_winds.png
-    ├── fig4_fast_star_winds.png
-    ├── fig5_2d_snapshot.png
-    └── fig6_3d_snapshot.png
+- Visualize **2-D face-on** and **3-D** views of the wind distribution to study collimation patterns and their dependence on stellar and wind velocities. 
