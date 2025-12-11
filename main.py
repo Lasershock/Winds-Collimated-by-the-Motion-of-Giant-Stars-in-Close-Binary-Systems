@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
 
-# === Configuration ===
+#Configuration 
 red_radius = 1.2
 blue_radius = 3.0
 orbit_period = 120  # number of frames in one orbit
@@ -23,7 +23,7 @@ theta = np.linspace(0, 2 * np.pi, orbit_period, endpoint=False)
 absorption_radius = 2.5
 absorption_speed = 0.05
 
-# === Figure / Axes setup ===
+#Figure / Axes setup 
 fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
 ax.set_xlim(-10, 10)
@@ -165,7 +165,3 @@ def main():
         interval=80
     )
     plt.show()
-
-
-if __name__ == '__main__':
-    main()
